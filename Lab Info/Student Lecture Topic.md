@@ -1,9 +1,8 @@
 ### Student Lecture Topic
 
 --------------------------------------------
-You need to follow the topic. 
-
-The note is used to help you break down the topic. You don't need to strictly follow the note.
+> [!IMPORTANT]  
+> You need to follow the topic.<br>The note is used to help you break down the topic. You don't need to strictly follow the note.
 
 ----------------------
 
@@ -93,9 +92,8 @@ The note is used to help you break down the topic. You don't need to strictly fo
 -----------------------
 
 #### Grading:
-
-- The student lecture will be graded by: 50% peer grading, write in the worksheet; 50% lab staff grading (Prof. and TA)
-- The rubrics are:
+> [!IMPORTANT]  
+> The student lecture will be graded by: 50% peer grading, write in the worksheet; 50% lab staff grading (Prof. and TA)<br>The rubrics are:
 
   |                     | Score |
   | ------------------- | :----: |
