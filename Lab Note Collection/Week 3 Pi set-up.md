@@ -55,12 +55,12 @@ You can also install Typora or something else.
 Python is default installed in Pi OS.  
 Code editor "Thonny" is also default installed in Pi OS.  
 You may also install other code editor such as VS Code (in Pi-Apps) if you prefer.
-
 - [ ] **Write simple Python code**
-Write a simple Python code in the editor to meeting requirements:
+  Write a simple Python code in the editor to meet requirements:
   - [ ] Use shebang (Unix) format
   - [ ] Prints the storage size and IP address of your Pi 5
-Then execute the code in the terminal.  
+
+  Then execute the code in the terminal.  
 
 <span style="color: red;">:tada: **Check Point 2**</span>
 show lab staff the output in the terminal.
