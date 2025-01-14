@@ -9,7 +9,8 @@
 
 ------------------
 ## 1. Preparation
-- [ ] **Unpack your Pi 5** 
+- [ ] **Unpack your Pi 5**
+
 - [ ] **Install Pi cooling fan**  
   search YouTube videos to check how to install
   
@@ -18,22 +19,27 @@
 <br>Follow the official guide:<br>
 https://www.raspberrypi.com/documentation/computers/getting-started.html#installing-the-operating-system 
 <br>You need to use your own laptop to image. The lab desktop has no admin authorization.
+
 - [ ] **Insert MicroSD card into the slot of your Pi**
 
 ## 3. Connect and Start your Pi 
 - [ ] **Connect mouse, keyboard**
   <br>Connect them to the slow USB ports (USB 2.0). <br>
   Leave fast USB ports (USB 3.0) later for camera, microphone, ...
+
 - [ ] **Connect monitor**
   <br>use the HDMI port on the desk Monitor. <br>Keep the VGA still connected to the desktop.
+
 - [ ] **Connect power adapter**
+
 - [ ] **Power on your Pi and finish use name/password set up**
   <br>Every group member must save a copy of your username/password
+
 - [ ] **Connect the iot Wifi**
   <br>Wifi password is provided on Blackboard > Lab Info folder
 
 🎉 **Check Point 1**
-show to lab staff once you successfully enter the Desktop screen of the Pi.
+<br>Show lab staff once you successfully enter the Desktop screen of the Pi.
 
 ## 4. Check Software in your Pi 
 - [ ] **Install Pi-Apps**
@@ -55,6 +61,7 @@ show to lab staff once you successfully enter the Desktop screen of the Pi.
 <br>Python is default installed in Pi OS.  
 <br>Code editor "Thonny" is also default installed in Pi OS.  
 <br>You may also install other code editor such as VS Code (in Pi-Apps) if you prefer.
+
 - [ ] **Write simple Python code**
   Write a simple Python code in the editor to meet requirements:
   - [ ] Use shebang (Unix) format
@@ -63,13 +70,13 @@ show to lab staff once you successfully enter the Desktop screen of the Pi.
   Then execute the code in the terminal.  
 
 🎉 **Check Point 2**
-show lab staff the output in the terminal.
+<br>Show lab staff the output in the terminal.
 
 🎉 **Check Point 3**
-Briefly explain your code to lab staff..
+<br>Briefly explain your code to lab staff..
 
 🎉 **Check Point 4**
-Show your markdown record to lab staff..
+<br>Show your Markdown record to lab staff..
 
 
 ---
