@@ -65,6 +65,7 @@ https://www.raspberrypi.com/documentation/computers/getting-started.html#install
 ```shell
 pinout
 ```
+  <img src="Pic/shell pinout.png" width="600"/>
 
 🎉 **Check Point 2**
 <br>Show lab staff the output in the terminal. And Briefly explain it.
