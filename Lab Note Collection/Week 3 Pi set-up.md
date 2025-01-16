@@ -59,8 +59,17 @@ https://www.raspberrypi.com/documentation/computers/getting-started.html#install
 
 :pushpin: Start from now, every thing you conduct need to be recorded in your Markdown.
 
+## 5. Check Terminal 
+- [ ] **Pinout**
+<br>When working in hardware connection, one very useful commond line is
+```shell
+pinout
+```
 
-## 5. Check Python
+🎉 **Check Point 2**
+<br>Show lab staff the output in the terminal. And Briefly explain it.
+
+## 6. Check Python
 - [ ] **Open Python Editor**
 <br>Python is default installed in Pi OS.  
 <br>Code editor "Thonny" is also default installed in Pi OS.  
@@ -73,11 +82,9 @@ https://www.raspberrypi.com/documentation/computers/getting-started.html#install
 
   Then execute the code in the terminal.  
 
-🎉 **Check Point 2**
-<br>Show lab staff the output in the terminal.
 
 🎉 **Check Point 3**
-<br>Briefly explain your code to lab staff..
+<br>Show lab staff the output in the terminal. And Briefly explain your code.
 
 🎉 **Check Point 4**
 <br>Show your Markdown record to lab staff..
