@@ -18,7 +18,11 @@
 - [ ] **Image Raspberry Pi OS into microSD card**
 <br>Follow the official guide:<br>
 https://www.raspberrypi.com/documentation/computers/getting-started.html#installing-the-operating-system 
-<br>You need to use your own laptop to image. The lab desktop has no admin authorization.
+<br><br>You need to use your own laptop to image. The lab desktop has no admin authorization.
+<br><br>Our lab micrcSD card, Samsung EVO Select 128 GB, is in fast speed. It won't take too much time to install.
+
+    <img src="Pic/pi install.png" width="600"/>
+
 
 - [ ] **Insert MicroSD card into the slot of your Pi**
 
