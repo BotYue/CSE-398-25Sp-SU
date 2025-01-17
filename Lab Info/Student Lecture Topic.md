@@ -3,7 +3,7 @@
 --------------------------------------------
 > [!IMPORTANT]  
 > You need to follow the topic.<br>The note is used to help you break down the topic. You don't need to strictly follow the note.
-
+<br>You can find your group number in Blackboard
 ----------------------
 
 #### Week 3:
@@ -12,11 +12,12 @@
   
   >Note: You can talk about both Raspberry PI hardware and Raspberry OS
   
-  >Team: 
+  >Group 5
+  
 - **Jan 29:** How to use GitHub
   >Note: You can show how to create repo, upload files and folder in repo, collaborate in repo, use gist to quick-share, and others...
 
-  >Team: 
+  >Group 4
 
 -----------------
 #### Week 4:
@@ -25,13 +26,13 @@
 
   > Note: You can show how to write a simple class (such as LED blink at different seconds), how to import Classes from a separate .py file, discuss how OOP helps organize larger projects, ...
   
-  > Team: 
+  >Group 5
 
 - **Feb 5:** I2C and UART
 
   > Note: You can talk about their history, communication protocol, pros/cons, and typical applications, ...
   
-  > Team:
+  >Group 1
 
 -------------------
 #### Week 5:
@@ -40,13 +41,13 @@
 
   > Note: You may choose Tkinter or PyQt, demonstrate how to code a simple GUI with ChatGPT.
   
-  > Team:
+  >Group 6
 
 - **Feb 12:** DC, Stepper, & Servo Motor
 
   > Note: You many talk about their mechanism, typical application, and wiring to embedded board, ...
   
-  > Team:
+  >Group 3
 
 ---------------------
 #### Week 6:
@@ -55,13 +56,13 @@
 
   > Note: You may compare Wi-Fi and Bluetooth technologies, typical use cases and how to set them on Raspberry PI, ...
   
-  > Team:
+  >Group 4
 
 - **Feb 19:** Survey of popular large language models
   
   >Note: You may show some popular large language models, how to use them, do they offer API, are they open-source, how much is the price...
   
-  > Team:
+  >Group 1
 
 ----------------------------------
 #### Week 7:
@@ -70,13 +71,13 @@
 
   > Note: You may discuss their differences in definition, history, and give real-world examples 
   
-  > Team:
+  >Group 6
 
 - **Feb 26:** How to use OpenCV in Python
 
   > Note: You may demo basic image operations with it
 
-  > Team: 
+  >Group 2
 
 -------------------------
 #### Week 8:
@@ -85,9 +86,11 @@
 
   > Note: you may talk about their sensing technologies, pros/cons, typically use cases...
   
-  > Team:
+  >Group 3
 
-- **Mar 5:** If need to adjust time
+- **Mar 5:** Self-defined topic
+
+  >Group 2
 
 -----------------------
 
