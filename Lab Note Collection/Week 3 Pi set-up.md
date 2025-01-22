@@ -1,8 +1,8 @@
 # Week 3: Pi set-up
 
-**Lab Date :dizzy: :** Jan 27, 29  
-**Due Date :alarm_clock: :** 2:00 pm Feb 3 
-
+:dizzy: **Lab Date :** Jan 27, 29  
+:alarm_clock: **Due Date :** 2:00 pm Feb 3   
+:pencil2: Every group member must be present for every check point.
 -------------------
 
 ## Task List
@@ -66,6 +66,11 @@ https://www.raspberrypi.com/documentation/computers/getting-started.html#install
 pinout
 ```
   <img src="Pic/shell pinout.png" width="600"/>
+  
+- [ ] **config.txt**
+<br>Read thru https://www.raspberrypi.com/documentation/computers/config_txt.html
+<br>In the terminal, check your Pi's core temperature and power supply voltage.
+
 
 🎉 **Check Point 2**
 <br>Show lab staff the output in the terminal. And Briefly explain it.
