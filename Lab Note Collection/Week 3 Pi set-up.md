@@ -3,7 +3,7 @@
 ---------------
 #### :dizzy: **Lab Date :** Jan 27, 29  
 #### :alarm_clock: **Due Date :** 2:00 pm Feb 3   
-#### :pencil2: Every group member must be present for every check point.
+#### :pencil: Every group member must be present for every check point.
 -------------------
 
 ## Task List
