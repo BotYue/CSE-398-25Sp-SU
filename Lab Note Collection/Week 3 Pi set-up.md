@@ -62,7 +62,7 @@ https://www.raspberrypi.com/documentation/computers/getting-started.html#install
 
 ## 5. Check Terminal 
 - [ ] **Pinout**
-<br>When working in hardware connection, one very useful commond line is
+<br>When working in hardware connection, one very useful command line is
 ```shell
 pinout
 ```
