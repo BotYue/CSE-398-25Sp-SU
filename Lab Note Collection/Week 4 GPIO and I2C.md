@@ -83,12 +83,12 @@ You should see ```0x3C``` address is there.
 
 
 - [ ] **adafruit_ssd1306 package**
-<br>To code that OLED in Python, you need to firstly install adafruit_ssd1306
+<br>To code that I2C-based OLED in Python, you need to firstly install adafruit_ssd1306
 ```shell
 cao@raspberrypiCao:~ $ pip3 install adafruit-circuitpython-ssd1306 --break-system-packages
 ```
 - [ ] **Hello World Display**
-<br> Start from a simple one in Python - just display "Hello World" in your screen.
+<br> Start from a simple one in Python - just display "Hello World" on your screen.
 <br> You can use these 2 packages for display.
 
 ```python
@@ -96,7 +96,7 @@ from PIL import Image, ImageDraw, ImageFont
 import adafruit_ssd1306
 ```
 
-As well as these two packages for I2C communication::
+As well as these two packages for I2C setup:
 ```python
 import board
 import busio
@@ -106,7 +106,6 @@ You are free to use extra packages in Python.
 - [ ] **Display Real-Time Status**
 <br> Try to get the real-time status:
 1. temperature of the Pi; 2. Time.
-
 <br> Display these info on the screen.
 
 - [ ] **Add Emoji**
@@ -125,12 +124,12 @@ emoji_font = ImageFont.truetype(emoji_font_path, 10)  # you can adjust font size
 draw.text((0, 15), "\U0001F319", font=emoji_font, fill=255)
 
 ```
-You don't need to use the exact same emojis in the example figure..
+You don't need to use the exact same emojis in the example picture.
 
 - [ ] **Improve display**
 <br> Arrange your information and emojis for better visual appeal.
 <br> Feel free to adjust the layout as you want.
-<br> No need  to strictly follow the placement shown in the example figure.
+<br> No need  to strictly follow the placement shown in the example picture.
 
 🎉 **Check Point 4**
 
