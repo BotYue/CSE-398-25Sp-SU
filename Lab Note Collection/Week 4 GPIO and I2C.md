@@ -1,7 +1,7 @@
 # Week 4: GPIO and I2C
 
 ---------------
-#### :dizzy: **Lab Date :**Feb 3, 5 
+#### :dizzy: **Lab Date :** Feb 3, 5 
 #### :alarm_clock: **Due Date :** 2:00 pm Feb 10   
 #### :pencil: Every group member must be present for every check point.
 -------------------
@@ -37,9 +37,11 @@
       **gpiozero** is also default installed in Pi OS.
     
     - [ ] Your Python code needs to have object-oriented programming (OOP) concept.
-      For example, create a ```class CarLightsSystem:``` and place it in a separate .py file.
+      <br> For example, create a ```class CarLightsSystem:``` and place it in a separate .py file.
 
 🎉 **Check Point 2**
+
+-------------------
 
 ## 3. I2C - Basic set-up 
 - [ ] **Hardware set-up**
@@ -47,12 +49,13 @@
   <br>It is this product:
   <br>0.96 Inch OLED I2C IIC Display Module 12864 128x64 Pixel SSD1306 Mini Self-Luminous OLED Screen 
   <br>https://www.amazon.com/dp/B09T6SJBV5?th=1 
-  Connect it with your Pi using breadboard and jump wires.
+  <br> Connect it with your Pi using breadboard and jump wires.
 
 - [ ] **Pi OS Configuration**
 <br>You need to turn on the I2C in the Pi OS firstly.
 <br>Go to your top left menu, you can find ```Preferences``` -> ```Raspberry Pi Configuration```.
-
+    <img src="Pic/I2CturnOn.png" width="800"/>
+    
 - [ ] **I2C Detect**
 <br>```i2cdetect``` is a tool defaultly install in Pi OS.
 <br>It can quick check your I2C communication in the Terminal. 
@@ -72,9 +75,12 @@ You should see ```0x3C``` address is there.
 
 🎉 **Check Point 3**
 
-## 4. I2C - Design a Status Monitor 
+## 4. I2C - A Status Monitor 
 **Overall, In the design, you need to realize a Status Monitor system:**
-<br> This OLED displays the temprature of your PI and real time.
+<br> This OLED displays the temprature of your PI and real time.  
+
+<img src="Pic/1000028656.jpg" width="500"/>
+
 
 - [ ] **adafruit_ssd1306 package**
 <br>To code that OLED in Python, you need to firstly install adafruit_ssd1306
@@ -82,8 +88,8 @@ You should see ```0x3C``` address is there.
 cao@raspberrypiCao:~ $ pip3 install adafruit-circuitpython-ssd1306 --break-system-packages
 ```
 - [ ] **Hello World Display**
-Start from a simple one in Python - just display "Hello World" in your screen.
-You can use these 2 packages for display.
+<br> Start from a simple one in Python - just display "Hello World" in your screen.
+<br> You can use these 2 packages for display.
 
 ```python
 from PIL import Image, ImageDraw, ImageFont
@@ -98,13 +104,13 @@ import busio
 You are free to use extra packages in Python.
 
 - [ ] **Display Real-Time Status**
-Try to get the real-time status:
+<br> Try to get the real-time status:
 1. temperature of the Pi; 2. Time.
 
-Display these info on the screen.
+<br> Display these info on the screen.
 
 - [ ] **Add Emoji**
-Plain text may look boring. You can add some emojis.
+<br> Plain text may look boring. You can add some emojis.
 <br> Download Google Noto Emoji font
 <br> https://fonts.google.com/noto/specimen/Noto+Emoji
 <br> Un-zip and place the ```NotoEmoji-Regular.ttf``` in the same folder as your code file.
@@ -113,7 +119,7 @@ Plain text may look boring. You can add some emojis.
 
 ```python
 emoji_font_path = "NotoEmoji-Regular.ttf"  
-emoji_font = ImageFont.truetype(emoji_font_path, 10)  # Adjust font size for readability
+emoji_font = ImageFont.truetype(emoji_font_path, 10)  # you can adjust font size for better display
 
 ## Suppose your PIL ImageDraw object is named "draw"
 draw.text((0, 15), "\U0001F319", font=emoji_font, fill=255)
@@ -122,9 +128,9 @@ draw.text((0, 15), "\U0001F319", font=emoji_font, fill=255)
 You don't need to use the exact same emojis in the example figure..
 
 - [ ] **Improve display**
-Arrange your information and emojis for better visual appeal.
-Feel free to adjust the layout as you want.
-No need  to strictly follow the placement shown in the example figure.
+<br> Arrange your information and emojis for better visual appeal.
+<br> Feel free to adjust the layout as you want.
+<br> No need  to strictly follow the placement shown in the example figure.
 
 🎉 **Check Point 4**
 
