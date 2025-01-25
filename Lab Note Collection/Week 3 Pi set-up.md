@@ -45,6 +45,7 @@ https://www.raspberrypi.com/documentation/computers/getting-started.html#install
 
 🎉 **Check Point 1**
 <br>Show lab staff once you successfully enter the Desktop screen of the Pi.
+<br>Return the SD card reader to lab staff.
 
 ## 4. Check Software in your Pi 
 - [ ] **Install Pi-Apps**
