@@ -99,7 +99,9 @@ Gyroscope (°/s): X=-0.33 Y=0.79 Z=1.39
 
   The servo motor we use is Smraza 9G Micro Servo Motor 
 
-  The purchase link is https://www.amazon.com/dp/B07L2SF3R4?smid=AMIHZKLK542FQ&th=1 
+  The purchase link is https://www.amazon.com/dp/B07L2SF3R4?th=1 
+
+  You can find its wiring and specs on this purchase page.
 
   Each group gets 2 servo motors.
 
@@ -108,9 +110,7 @@ Gyroscope (°/s): X=-0.33 Y=0.79 Z=1.39
 - [ ] **Power Supply set-up**
 
 > [!CAUTION]
-> Never use a microcontroller's Pin (Arduino/Pi/...) to directly power motors.
-
-  You need to use an external Power Supply.
+> Never use a microcontroller's Pin (Arduino/Pi/...) to directly power motors. You need to use an external Power Supply.
 
   <img src="Pic/power up.jpg" width="600"/>
 
