@@ -30,7 +30,7 @@ Connect Arduino to your own laptop
 The IMU we purchased is: 
 Pre-Soldered SHILLEHTEK MPU6050,<br>
 https://www.amazon.com/Pre-Soldered-Accelerometer-Raspberry-Compatible-Arduino/dp/B0BMY15TC4 
-<br>The usage of this IMU is similar as the one on  the Adafruit website:<br>
+<br>The usage of this IMU is compatible as the one on  the Adafruit website:<br>
 https://learn.adafruit.com/mpu6050-6-dof-accelerometer-and-gyro/overview 
 
 - [ ] **Code the IMU**
@@ -71,7 +71,7 @@ Gyroscope (°/s): X=-0.33 Y=0.79 Z=1.39
  
   <img src="Pic/IMU monitoring.png" width="600"/>
   
-  **You can get better display than mine.**
+  **You should get better display than mine.**
 
   - [ ] **Extra Note 1**
 
