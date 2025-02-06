@@ -21,10 +21,12 @@ Using the Arduino as an intermediate has such advantages:
 ------------------
 ## 1. Arduino IMU Basic
 - [ ] **Get any Arduino board that is 3.3 V logic**
+
 Connect Arduino to your own laptop
 <br>Check Arduino uploading using the simplest example -- Blink
 
 - [ ] **Set up MPU6050 IMU**
+
 The IMU we purchased is: 
 Pre-Soldered SHILLEHTEK MPU6050,
 https://www.amazon.com/Pre-Soldered-Accelerometer-Raspberry-Compatible-Arduino/dp/B0BMY15TC4 
@@ -32,6 +34,7 @@ https://www.amazon.com/Pre-Soldered-Accelerometer-Raspberry-Compatible-Arduino/d
 https://learn.adafruit.com/mpu6050-6-dof-accelerometer-and-gyro/overview 
 
 - [ ] **Code the IMU**
+
 In your Arduino IDE, code the IMU, print the sensor readings to the Serial Monitor.
 
 Move your IMU around, see if the sensor readings are reasonble.
@@ -65,6 +68,7 @@ Gyroscope (°/s): X=-0.33 Y=0.79 Z=1.39
     - [ ] On the Pi side, display the info on the Termination. 
     
   - [ ] **Extra Note 1**
+
    When sending sensor readings from Arduino to Pi, don't use multiple ```Serial.print```  or ```Serial.println```  in a main loop. 
     <br>Instead, get all sensor readings, combine them in a structed format (like a packet), then use a single ```Serial.println``` to send.
     Here is an example I did: ``<AX:0.02,AY:-9.81,AZ:0.03,GX:0.01,GY:-0.02,GZ:0.00>``
@@ -73,9 +77,9 @@ Gyroscope (°/s): X=-0.33 Y=0.79 Z=1.39
 	
   - [ ] **Extra Note 2**
   
-    In terminal, you can check the name of the USB device.
+  In terminal, you can check the name of the USB device.
   
-    When coding, make sure the baud rate of your Pi and your Arduino are set as the same.
+  When coding, make sure the baud rate of your Pi and your Arduino are set as the same.
   ```shell
   ~ $ ls /dev/ttyACM*
   ```
@@ -97,12 +101,18 @@ Gyroscope (°/s): X=-0.33 Y=0.79 Z=1.39
 
 - [ ] **Power Supply set-up**
 
-
-  Warning: Never use micro-controller's Pin (Arduino/Pi/...) to power up motors.
+> [!CAUTION]
+> Never use a microcontroller's Pin (Arduino/Pi/...) to directly power motors.
 
   You need to use an external Power Supply.
 
-  You can use the dual-head screwdriver: i) one blade head to turn power supply supply; ii) the other Phillips head tighten jump-wire insertion 
+  <img src="Pic/power up.jpg" width="600"/>
+
+  You can use the dual-head screwdriver:
+
+  i) one blade-shaped head to turn power supply voltage; ii) the other cross-shaped head tighten wire insertion  
+
+  <img src="Pic/motor power.png" width="800"/>
 
 - [ ] **Run the Motor**
 
@@ -120,6 +130,8 @@ Code the Arduino. Such that you can turn 2 motors at different angles.
 
 - [ ] I played with ChatGPT 20 minutes. It gives me such GUI with the following import.
 
+  <img src="Pic/servo gui.png" width="400"/>
+ 
 ```python
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QLabel, QDial
 from PyQt5.QtGui import QFont, QPainter, QColor
