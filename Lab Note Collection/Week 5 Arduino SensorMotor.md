@@ -1,7 +1,7 @@
 # Week 5: Arduino SensorMotor
 
 ---------------
-#### :dizzy: **Lab Date :**Feb 10, 12 
+#### :dizzy: **Lab Date :** Feb 10, 12 
 #### :alarm_clock: **Due Date :** 2:00 pm Feb 17   
 #### :pencil: Every group member must be present for every check point.
 -------------------
@@ -9,11 +9,6 @@
 ## Task List
 
 --------------
-
-Here’s an improved and expanded version of your task note:
-
-------
-
 ### **Introduction**
 
 This week, we will integrate the IMU and servo motors with the Pi 5. While both the IMU and servo motors can be directly connected to the Pi 5, we decide to introduce an Arduino as an intermediate device. 
