@@ -15,7 +15,7 @@ This week, we will integrate the IMU and servo motors with the Pi 5. While both 
 
 Using the Arduino as an intermediate has such advantages:
 
-1. **Efficient Task Allocation:** The Arduino will handle real-time processing of IMU data and servo control. So that we can free PI to do some other heavily computational tasks.
+1. **Better Task Allocation:** The Arduino will handle simple but real-time processing of IMU data and servo control. So that we can free PI to do some other heavily computational tasks.
 2. **Better Timing:**  The Arduino has better timing mechanism than the Raspberry Pi, such as the ```millis()``` function for accurate time tracking.
 
 ------------------
@@ -28,9 +28,9 @@ Connect Arduino to your own laptop
 - [ ] **Set up MPU6050 IMU**
 
 The IMU we purchased is: 
-Pre-Soldered SHILLEHTEK MPU6050,
+Pre-Soldered SHILLEHTEK MPU6050,<br>
 https://www.amazon.com/Pre-Soldered-Accelerometer-Raspberry-Compatible-Arduino/dp/B0BMY15TC4 
-<br>The usage of this IMU is similar as the one on  the Adafruit website:
+<br>The usage of this IMU is similar as the one on  the Adafruit website:<br>
 https://learn.adafruit.com/mpu6050-6-dof-accelerometer-and-gyro/overview 
 
 - [ ] **Code the IMU**
@@ -62,11 +62,17 @@ Gyroscope (°/s): X=-0.33 Y=0.79 Z=1.39
     
   - [ ] **Software**:
     
-    - [ ] Arduino continuously monitors the vibration level.
+    - [ ] Arduino continuously monitors the IMU data.
     - [ ] If in minimal vibration, send "OK" to the Pi.
     - [ ] If significant vibration happens, send detail sensor readings to the Pi.
-    - [ ] On the Pi side, display the info on the Termination. 
-    
+    - [ ] On the Pi side, display the info on the Terminal. 
+
+  - [ ] Here is an example I got:
+ 
+  <img src="Pic/IMU monitoring.png" width="600"/>
+  
+  **You can get better display than mine.**
+
   - [ ] **Extra Note 1**
 
    When sending sensor readings from Arduino to Pi, don't use multiple ```Serial.print```  or ```Serial.println```  in a main loop. 
@@ -139,7 +145,7 @@ from PyQt5.QtCore import Qt
 import sys
 ```
 
-I expect your GUI is in better-looking than my simple work.
+**I expect your GUI is in better-looking than my simple work.**
 
 🎉 **Check Point 4**
 
