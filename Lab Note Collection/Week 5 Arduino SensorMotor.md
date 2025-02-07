@@ -110,7 +110,8 @@ Gyroscope (°/s): X=-0.33 Y=0.79 Z=1.39
 - [ ] **Power Supply set-up**
 
 > [!CAUTION]
-> Never use a microcontroller's Pin (Arduino/Pi/...) to directly power motors. You need to use an external Power Supply.
+> Never use a microcontroller's Pin (Arduino/Pi/...) to directly power motors. <br> You need to use an external Power Supply.<br>
+> Also make sure Common Ground between the external Power Supply and board.
 
   <img src="Pic/power up.jpg" width="600"/>
 
