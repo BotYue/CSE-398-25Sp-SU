@@ -65,9 +65,9 @@ Gyroscope (°/s): X=-0.33 Y=0.79 Z=1.39
     - [ ] Arduino continuously monitors the IMU data.
     - [ ] If in minimal vibration, send "OK" to the Pi.
     - [ ] If significant vibration happens, send detail sensor readings to the Pi.
-    - [ ] On the Pi side, display the info on the Terminal. 
+    - [ ] On the Pi side, display the info on the Terminal or your created GUI. 
 
-  - [ ] Here is an example I got:
+  - [ ] Here is a simple example I got:
  
   <img src="Pic/IMU monitoring.png" width="600"/>
   
