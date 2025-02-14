@@ -80,12 +80,12 @@ Then go to your Python, check with a simple script
 import zmq
 print(zmq.__version__)
 ```
-- [ ] **Design a message broadcasting system based on following requirements**
+- [ ] **Design a weather broadcasting system based on following requirements**
   - [ ] The only networking interface package used is ```import zmq``` 
   - [ ] Use the PUB/SUB (Publisher/Subscriber) communication in ZeroMQ
   - [ ] Make arrangement with other groups. 2 Groups act as Publishers, 5 other groups act as Subscribers. 
-  - [ ] Publishers connect Pi with DHT11 Sensor.  https://www.amazon.com/dp/B01DKC2GQ0 . The Publisher broadcasts their "Station ID: 1/2 " and "Environment Info: " every 10 seconds.
-  - [ ] Subscribers receive message from one of the Publisher (Station 1 or 2).  Subscribers display the info on their OLED screen.
+  - [ ] Publisher act as a weather station. Connect Pi with DHT11 Sensor:  https://www.amazon.com/dp/B01DKC2GQ0 . The Publisher broadcasts their "Station ID: 1/2 " and "Weather Info: " every 10 seconds.
+  - [ ] Subscribers receive message from one of the Publishers (Station 1 or 2).  Subscribers display the info on their OLED screen.
 
 🎉 **Check Point 2**
 
