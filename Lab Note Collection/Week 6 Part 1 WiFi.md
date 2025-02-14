@@ -63,7 +63,7 @@ After playing for a while, stop the http server in your Pi Terminal.
 
 ## 3. `ZeroMQ` — High-level networking interface 
 > [!NOTE]  
-> **Task Overview: Work with other groups, use ```ZeroMQ```  to realize a weather broadcasting system via WiFi. The message broadcasting is single-to-many**
+> **Task Overview: Work with other groups, use ```ZeroMQ```  to realize a weather broadcasting system via WiFi. The broadcasting is single-to-many**
 
 ```ZeroMQ```  is a high-level networking interface. It can easily configure many-to-many communication. It has multiple communication modes: PUB/SUB, REQ/REP, PUSH/PULL, ...
 
