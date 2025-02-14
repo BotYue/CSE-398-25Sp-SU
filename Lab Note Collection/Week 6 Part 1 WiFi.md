@@ -9,9 +9,9 @@
 ## Task List
 
 ------------------
-## 1. HTTP server
-
-**Task Overview: you will set-up a static file host in your Pi via Wifi**
+## 1. HTTP server — Static host
+> [!NOTE]  
+> **Task Overview: you will set-up a static file host in your Pi via Wifi**
 
 - [ ] **Get your laptop and Pi both connected to the iot_lab WiFi**
 
@@ -19,7 +19,7 @@ In your laptop and Pi, use Terminal (Shell) commands to get IP addresses of both
 
 - [ ] **A folder to host files**
 
-In your Pi, create a folder. Places some files into the folder, such as documents, pictures, videos.
+In your Pi, create a folder. Place some files into the folder, such as docs, pictures, videos.
 
 In the Pi terminal
 
@@ -45,7 +45,8 @@ After playing for a while, stop the http server in your Pi Terminal.
 
 
 ## 2. `socket` — Low-level networking interface
-**Task Overview: Use ```socket```  to realize a file transfer system via WiFi. The file transfer is single-device-to-single-device**
+> [!NOTE]  
+> **Task Overview: Use ```socket```  to realize a file transfer system via WiFi. The file transfer is single-to-single**
 
 ```socket```  is already in the Pi's Python. It is a low-level tool and can realize simple client-server communication.
 
@@ -61,7 +62,8 @@ After playing for a while, stop the http server in your Pi Terminal.
 
 
 ## 3. `ZeroMQ` — High-level networking interface 
-**Task Overview: Work with other groups, use ```ZeroMQ```  to realize a message broadcasting system via WiFi. The message broadcasting is single-device-to-many-device**
+> [!NOTE]  
+> **Task Overview: Work with other groups, use ```ZeroMQ```  to realize a weather broadcasting system via WiFi. The message broadcasting is single-to-many**
 
 ```ZeroMQ```  is a high-level networking interface. It can easily configure many-to-many communication. It has multiple communication modes: PUB/SUB, REQ/REP, PUSH/PULL, ...
 
