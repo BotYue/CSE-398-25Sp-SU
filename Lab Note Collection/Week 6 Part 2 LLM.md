@@ -58,6 +58,8 @@ In command line, use this to check all models downloaded in your local Pi:
 ```shell
 ollama list
 ```
+> [!Note]
+> Once finish downloads, switch back to ```iot_lab``` WiFi
 
 ## 2. Compare performance in Command Line
 
