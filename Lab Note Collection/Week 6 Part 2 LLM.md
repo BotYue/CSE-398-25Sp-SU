@@ -28,9 +28,9 @@ reboot
 I did test last week. Somehow ```iot_lab``` WiFi is slow  specifically for Ollama download. 
 <br>You need to switch to ```edueoam``` WiFi to get faster download.
 
-<br>Visit https://cat.eduroam.org/ . Click Download. You need to select "Syracuse University" as the orginization.
+<br>Visit https://cat.eduroam.org/ . Click Download. You need to select "Syracuse University" as the organization.
 
-The run the downloaded ```eduroam-linux_--Syracuse_University-Eduroam_at_S_U.py``` file. 
+Then run the downloaded ```eduroam-linux_--Syracuse_University-Eduroam_at_S_U.py``` file. 
 <br>It will pop out a window. Enter your syr email and password.
 
 
