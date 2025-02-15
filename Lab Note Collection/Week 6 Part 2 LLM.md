@@ -116,14 +116,12 @@ Test at least 5-10 questions in each field.
 | Field 1 |     |  |  |
 | Field 2 |    |  |  |
 | Field 3    |     |  |  |
-| Field 4 |     |  |  |
 
 |  Answer rating  | LLM 1 | LLM 2 | LLM 3|
 | -------- | ------- |------- |------- |
 | Field 1 |     |  |  |
 | Field 2 |    |  |  |
 | Field 3    |     |  |  |
-| Field 4 |     |  |  |
 
 > [!Note]
 > Control+C doesn't end ollama Terminal. Use this to end:
