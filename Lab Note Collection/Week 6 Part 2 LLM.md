@@ -34,7 +34,7 @@ Then run the downloaded ```eduroam-linux_--Syracuse_University-Eduroam_at_S_U.py
 <br>It will pop out a window. Enter your syr email and password.
 
 
-- [ ] Install ```Ollama```
+- [ ] **Install ```Ollama```**
 
 Go to the Github page of ```Ollama```:
 <br>https://github.com/ollama/ollama  Read thru the webpage.
@@ -134,7 +134,7 @@ Test at least 5-10 questions in each field.
 
 ## 3. Python programming with ```Ollama```
 
-- [ ] Install ```Ollama Python library```
+- [ ] **Install ```Ollama Python library```**
 
 ```shell
 pip3 install ollama --break-system-packages
@@ -196,7 +196,7 @@ SyrNear(city_name='Schenectady', distance=115, feature='industrial center')]
 ```
 
 For your task, pick any questions in any field you like, 
-<br>try to enforce the LLM answer into a structured output form.
+<br>try to enforce the LLM answer into a structured format.
 
 🎉 **Check Point 4**
 
