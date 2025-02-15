@@ -107,7 +107,7 @@ Ask questions in different fields, such as:
 
 You can try to test knowledge in many other fields. For every answer, your group give a rating to it (such as 1-10)
 
-Test at least 8-10 questions in each field. 
+Test at least 5-10 questions in each field. 
 <br>Form your averaged eval rate (Tokens/s) and answer ratings in a table form. 
 <br>For example:
 
