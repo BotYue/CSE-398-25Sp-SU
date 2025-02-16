@@ -153,6 +153,7 @@ However, in Python, working with natural language (plain text) is not ideal.
 <br>Instead, we prefer LLM answers to be organized in a structured format.
 
 In ```Ollama```, we can enforece the answer from daily chat format to structured JSON format.
+<br> https://ollama.com/blog/structured-outputs
 
 Here is an example:     
 
