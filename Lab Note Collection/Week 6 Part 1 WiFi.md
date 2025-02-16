@@ -33,7 +33,7 @@ python3 -m http.server 8000
 In your laptop, open a browser, enter such address
 
 ```
-http://<your_pi_ip>:8080
+http://<your_pi_ip>:8000
 ```
 
 You should be able to access and download files from the folder.
