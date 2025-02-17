@@ -1,7 +1,7 @@
-# Week 6: Part 1 - WiFi
+# Week 6: WiFi
 
 ---------------
-#### :dizzy: **Lab Date :** Feb 17, 19 
+#### :dizzy: **Lab Date :** Feb 19 
 #### :alarm_clock: **Due Date :** 2:00 pm Feb 24   
 #### :pencil: Every group member must be present for every check point.
 -------------------
