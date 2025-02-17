@@ -131,7 +131,7 @@ Test at least 5-10 questions in each field.
 >>> /bye
 ```
 
-🎉 **Check Point 3**
+🎉 **Check Point 1**
 
 
 ## 3. Python programming with ```Ollama```
@@ -201,7 +201,7 @@ SyrNear(city_name='Schenectady', distance=115, feature='industrial center')]
 For your task, pick any questions in any field you like, 
 <br>try to enforce the LLM answer into a structured format.
 
-🎉 **Check Point 4**
+🎉 **Check Point 2**
 
 
 ---
