@@ -1,7 +1,7 @@
 # Week 7: Part 1 - LLM
 
 ---------------
-#### :dizzy: **Lab Date :** Feb 24 
+#### :dizzy: **Lab Date :** Feb 24, 26
 #### :alarm_clock: **Due Date :** 2:00 pm March 3   
 #### :pencil: Every group member must be present for every check point.
 -------------------
