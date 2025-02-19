@@ -52,22 +52,24 @@
 ---------------------
 #### Week 6:
 
-- **Feb 17:** Wifi vs Bluetooth
+- **Feb 17:** Canceled due to weather
 
+- **Feb 19:**
+  <br>Wifi vs Bluetooth
   > Note: You may compare Wi-Fi and Bluetooth technologies, typical use cases and how to set them on Raspberry PI, ...
   
   >Group 4
 
-- **Feb 19:** Survey of popular large language models
-  
+----------------------------------
+#### Week 7:
+
+- **Feb 24:**
+  <br>Survey of popular large language models
   >Note: You may show some popular large language models, how to use them, do they offer API, are they open-source, how much is the price...
   
   >Group 1
 
-----------------------------------
-#### Week 7:
-
-- **Feb 24:** Concept of AI vs Machine learning vs Deep learning
+  Concept of AI vs Machine learning vs Deep learning
 
   > Note: You may discuss their differences in definition, history, and give real-world examples 
   
@@ -82,12 +84,15 @@
 -------------------------
 #### Week 8:
 
-- **Mar 3:** Cameras, radar, & LiDAR
-
+- **Mar 3:**
+  <br>Cameras, radar, & LiDAR
   > Note: you may talk about their sensing technologies, pros/cons, typically use cases...
   
   >Group 3
 
+  YOLO for beginners
+  >Group 7
+  
 - **Mar 5:** Self-defined topic
 
   >Group 2
