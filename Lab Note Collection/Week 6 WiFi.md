@@ -63,7 +63,7 @@ After playing for a while, stop the http server in your Pi Terminal.
 
 ## 3. `ZeroMQ` — High-level networking interface 
 > [!NOTE]  
-> **Task Overview: Work with other groups, use ```ZeroMQ```  to realize a weather broadcasting system via WiFi. The broadcasting is single-to-many**
+> **Task Overview: Work with other groups, use ```ZeroMQ```  to realize a light broadcasting system via WiFi. The broadcasting is single-to-many**
 
 ```ZeroMQ```  is a high-level networking interface. It can easily configure many-to-many communication. It has multiple communication modes: PUB/SUB, REQ/REP, PUSH/PULL, ...
 
@@ -82,11 +82,11 @@ Then go to your Python, check with a simple script
 import zmq
 print(zmq.__version__)
 ```
-- [ ] **Design a weather broadcasting system based on following requirements**
+- [ ] **Design a broadcasting system based on following requirements**
   - [ ] The only networking interface package used is ```import zmq``` 
   - [ ] Use the PUB/SUB (Publisher/Subscriber) communication in ZeroMQ
   - [ ] Make arrangement with other groups. 2 Groups act as Publishers, 5 other groups act as Subscribers. 
-  - [ ] Publisher act as a weather station. Connect Pi with DHT11 Sensor:  https://www.amazon.com/dp/B01DKC2GQ0 . The Publisher broadcasts their "Station ID: 1/2 " and "Weather Info: " every 10 seconds.
+  - [ ] Publisher act as a broadcasting station. Connect Pi with BH1750 Light Sensor: https://learn.adafruit.com/adafruit-bh1750-ambient-light-sensor/overview . The Publisher broadcasts their "Station ID: 1/2 " and "Light Info: " every 10 seconds.
   - [ ] Subscribers receive message from one of the Publishers (Station 1 or 2).  Subscribers display the info on their OLED screen.
 
 🎉 **Check Point 2**
