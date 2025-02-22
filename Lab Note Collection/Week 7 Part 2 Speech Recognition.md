@@ -18,6 +18,8 @@ We have these two devices:
 * Adafruit Mini USB Microphone: https://www.adafruit.com/product/3367
 * Adafruit Mini USB Speaker: https://www.adafruit.com/product/3369
 
+<img src="Pic/audio device.png" width="800"/>
+
 -----------------
 
 - [ ] **First configure the speaker.**
@@ -43,6 +45,8 @@ Then run this testing Commond Line, or just play any YouTube video:
 ```shell
 cao@raspberrypiCao:~ $ speaker-test -c2 -twav
 ```
+
+------------------
 
 - [ ] **Second configure the microphone.**
 
@@ -115,13 +119,16 @@ https://huggingface.co/Systran
 For each listed model, you can clicked into:
 
 * In **Files and versions**, you can see their download size. Better avoid download something over 1 GB. It would be too much for your Pi.
+  <kbd><img src="Pic/huggingface.png" width="600"/></kbd>
 * In **Model card**, if you run the Python code piece in Example, it will automatically download the model to your Pi.
+  <kbd><img src="Pic/huggingface2.png" width="600"/></kbd>
 
+------------  
 - [ ] **Check models**
 
 After downloading the models, use our USB microphone and record a 10 seconds audio.
 
-Do such code:
+Do such code. Check Comments:
 
 ```python
 from faster_whisper import WhisperModel
@@ -131,9 +138,9 @@ model = WhisperModel(model_size, device="cpu", compute_type="int8")
 # Always do this setting for Pi.
 
 segments, info = model.transcribe("test.wav", language="en", beam_size=5)
-#you can specify "en" (English) to many other languages
-#to check the full list of supported languages.
-#check HuggingFace models -> Files and versions -> README.md
+# you can specify "en" (English) to many other languages
+# to check the full list of supported languages.
+# check HuggingFace models -> Files and versions -> README.md
 
 for segment in segments:
     print("[%.2fs -> %.2fs] %s" % (segment.start, segment.end, segment.text))
