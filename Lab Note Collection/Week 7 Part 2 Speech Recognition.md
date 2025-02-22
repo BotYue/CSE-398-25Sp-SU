@@ -38,6 +38,8 @@ Your Audio output may de default set as the Minitor's HDMI. If so,
 cao@raspberrypiCao:~ $ sudo raspi-config
 ```
 
+<img src="Pic/configaudio.png" width="500"/>
+
 Go to **1 System Options** , Then **S2 Audio** Then adjust settings.
 
 Then run this testing Commond Line, or just play any YouTube video:
