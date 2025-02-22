@@ -106,13 +106,11 @@ You need to be aware which models are situable for your Pi.
 
 In Python,
 
-````python
 ```python
 from faster_whisper import available_models
 
 print(available_models())
 ```
-````
 
 These printed models, they are actually hosted on ```Huggingface``` website:
 
