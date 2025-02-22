@@ -94,7 +94,7 @@ Do such in Terminal:
 cao@raspberrypiCao:~ $ pip3 install faster-whisper --break-system-packages
 ```
 
-This will install all required packages for ```faster-whisper```. After installation, our Terminal shows:
+This will install all required packages for ```faster-whisper```. 
 
 - [ ] **Download models**
 
