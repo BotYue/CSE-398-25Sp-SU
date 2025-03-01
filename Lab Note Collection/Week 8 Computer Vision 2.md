@@ -32,7 +32,7 @@ https://pytorch.org/vision/0.21/generated/torchvision.datasets.FashionMNIST.html
 
 - [ ] **Check the Data**
 
-Open your file folder to double check. You should have 8 files in 4 different names (4 compressed, 4 raw):
+Open your file folder to double check. You should have 8 files in 4 different names (4 compressed .gz, 4 raw ubyte). They are:
 * training set images
 * training set labels
 * testing set images
