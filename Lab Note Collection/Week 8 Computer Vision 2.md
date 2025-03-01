@@ -93,13 +93,15 @@ Your task is to implement a **real-time object detector** in Pi. In detail:
   It is in PyTorch: ```from torchvision.models import MobileNet_V2_Weights```
 
 - [ ] **Stream**
-Use the Pi's USB camera. Stream the real-time video and prediction result in your Pi.
+
+  Use the Pi's USB camera. Stream the real-time video and prediction result in your Pi. Again, if ```cv2.imshow``` not working, use ```flask``` package instead and display the stream on Pi's browser.
 
 - [ ] **FPS**
-Display the real-time frame rate (FPS).
 
+  Display the real-time frame rate (FPS).
 
-Here are 2 screenshots of my running:
+----------
+Here are 2 screenshots of my running (This is using ```flask``` package and display in a browser):
 
 | **Screenshot 1** |**Screenshot 2** |
 |---------|---------|
