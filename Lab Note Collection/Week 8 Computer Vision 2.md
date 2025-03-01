@@ -40,13 +40,16 @@ Open your file folder to double check. You should have 8 files in 4 different na
 
 Start a new .py, use ```torchvision.datasets``` to load downloaded dataset. Then use ```matplotlib``` to display some images and their labels.
 
+<img src="Pic/Figure_1.png" height="500"> 
+
 - [ ] **Train Neural Network**
 
 Start over a new .py. Use ```torch.nn``` to create a neural network. Then train the neural network in the Pi.
 
-* Remember to do ```torch.device("cpu")```, not ```gpu```
+* Remember to do ```torch.device("cpu")``` for Pi, not ```gpu```
 * Record your training time. expect to be >10 minutes.
 * Save the trained model in your local disk.
+* The training can be done in your own laptop or any Cloud platform for speeding up.
 
 - [ ] **Inference with Real Image**
 
