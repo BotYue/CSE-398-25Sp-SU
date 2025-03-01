@@ -45,7 +45,7 @@ Start over a new .py. Use ```torch.nn``` to create a neural network. Then train 
 * Record your training time. expect to be >10 minutes.
 * Save the trained model in your local disk.
 
-- [ ] **Test with Real Image**
+- [ ] **Inference with Real Image**
 
 * Use a Bold marker pen to write some digits on a white paper. (normal pen will be too thin in writing trace).
 
@@ -53,7 +53,7 @@ Start over a new .py. Use ```torch.nn``` to create a neural network. Then train 
 
 * Next, use OpenCV to preprocess images to convert them to the same style as MNIST images.
 
-* Then, start over a new .py file. Test the real images with your previously trained neural networks.
+* Then, start over a new .py file. Use your previously trained neural networks and perform inference on the images.
 
 * Does it predict the correct digit?
 
@@ -61,6 +61,10 @@ Start over a new .py. Use ```torch.nn``` to create a neural network. Then train 
 |---------|---------|
 | <img src="Pic/captured_digit.jpg" height="200"> | <img src="Pic/opencv_digit.png" height="200"> |
 
+```shell
+>>> %Run processimagemnist.py
+Predicted digit: 4
+```
 
 🎉 **Check Point 3**
 
