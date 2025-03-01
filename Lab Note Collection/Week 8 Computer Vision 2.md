@@ -37,7 +37,7 @@ Open your file folder to double check. You should have 4 compressed files:
 
 Start a new .py, use ```torchvision.datasets``` to load downloaded dataset. Then use ```matplotlib``` to display some images and their labels.
 
-- [ ] **Training Neural Network**
+- [ ] **Train Neural Network**
 
 Start over a new .py. Use ```torch.nn``` to create a neural network. Then train the neural network in the Pi.
 
@@ -45,9 +45,9 @@ Start over a new .py. Use ```torch.nn``` to create a neural network. Then train 
 * Record your training time. expect to be >10 minutes.
 * Save the trained model in your local disk.
 
-- [ ] **Testing with Real Image**
+- [ ] **Test with Real Image**
 
-* Use a marker pen to write some digits on a white paper. (normal pen will be too thin in writing trace).
+* Use a Bold marker pen to write some digits on a white paper. (normal pen will be too thin in writing trace).
 
 * Then, use Pi's USB camera to capture each digit in separate images. 
 
@@ -57,6 +57,9 @@ Start over a new .py. Use ```torch.nn``` to create a neural network. Then train 
 
 * Does it predict the correct digit?
 
+| **Pi's raw capture** |**After OpenCV process** |
+|---------|---------|
+| <img src="Pic/captured_digit.jpg" height="200"> | <img src="Pic/opencv_digit.png" height="200"> |
 
 
 🎉 **Check Point 3**
@@ -83,10 +86,11 @@ Such pre-trained MobileNetV2 can predict 1000 different objects:
 
 -----------------------
 
-Your task is to implement a **real-time object detector**. In detail:
+Your task is to implement a **real-time object detector** in Pi. In detail:
 
 - [ ] **Use Pre-trained MobileNetV2**
-It is in PyTorch: ```from torchvision.models import MobileNet_V2_Weights```
+
+  It is in PyTorch: ```from torchvision.models import MobileNet_V2_Weights```
 
 - [ ] **Stream**
 Use the Pi's USB camera. Stream the real-time video and prediction result in your Pi.
@@ -97,6 +101,9 @@ Display the real-time frame rate (FPS).
 
 Here are 2 screenshots of my running:
 
+| **Screenshot 1** |**Screenshot 2** |
+|---------|---------|
+| <img src="Pic/bottlepic.png" height="400"> | <img src="Pic/playerpic.png" height="400"> |
 
 🎉 **Check Point 4**
 
