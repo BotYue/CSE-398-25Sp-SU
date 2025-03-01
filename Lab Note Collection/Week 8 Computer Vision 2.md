@@ -26,7 +26,7 @@ We will try on a simple dataset -- **Fashion MNIST**.
 
 - [ ] **Prepare Training Data**
 
-Use ```torchvision.datasets``` to download MNIST data to your local disk.
+Use ```torchvision.datasets``` to download Fashion MNIST data to your local disk.
 
 https://pytorch.org/vision/0.21/generated/torchvision.datasets.FashionMNIST.html
 
@@ -70,17 +70,17 @@ Model trained and saved as /home/cao/Downloads/fashion_mnist_optimized.pth
 
 - [ ] **Inference with Real Image**
 
-* Place an item before a background. There are 10 accepted item types. They can be found in previous [kaggle hyperlink](https://www.kaggle.com/datasets/zalando-research/fashionmnist).
+* Place a fashion item before a background. There are 10 accepted item types. They can be found in previous [kaggle hyperlink](https://www.kaggle.com/datasets/zalando-research/fashionmnist).
 
-* Take a photo of it. Ensure clean background and high contrast between item and background. (I use my phone to take picture)
+* Take a photo of it. Ensure clean background and high contrast between item and background. (I used my phone to take picture)
 
-* Preprocess images to convert them to the same style as Fashion MNIST images. (I used photo app in my phone to crop and filter. Then I upload the image to ChatGPT and ask it to generate code that: "use opencv to preprocess the uploaded image for Fashion MNIST dataset. Ensure clear edge and good contrast." )
+* Preprocess images to convert them to the same style as Fashion MNIST images. (I used my photo-edit app to crop and filter. Then I upload the image to ChatGPT and ask it to generate code that: "use opencv to preprocess the uploaded image for Fashion MNIST dataset. Ensure clear edge and good contrast." )
 
 * Then, start over a new .py file. Use your previously trained neural networks and perform inference on the images. Also record the inference time.
 
 * Does it predict the correct label?
 
-| **Raw Image** |**Preprocessed and Perform prediction** |
+| **Raw Image** |**Preprocessed then Perform Prediction** |
 |---------|---------|
 | <img src="Pic/1000028901.jpg" height="350"> | <img src="Pic/Figure_2.png" height="400"> |
 
