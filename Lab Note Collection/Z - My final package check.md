@@ -1,4 +1,4 @@
-**These are all pip3 packages I installed in the final.**
+**These are all pip3 packages I have after Week 8.**
 
 ```shell
 cao@raspberrypiCao:~ $ pip3 list
