@@ -11,7 +11,7 @@
 > Pi's Fan will run in full speed. Ensure no objects nearby the fan.
 
 ------------------
-## 3. Deep Vision Workflow
+## 3. Deep Vision Workflow — Fashion MNIST
 
 In this task, we will try the deep-learning-based computer vision. We will go thru the procedures step by step.
 
@@ -70,29 +70,30 @@ Model trained and saved as /home/cao/Downloads/fashion_mnist_optimized.pth
 
 - [ ] **Inference with Real Image**
 
-* Use a Bold marker pen to write some digits on a white paper. (normal pen will be too thin in writing trace).
+* Place an item before a background. There are 10 accepted item types. They can be found in previous [kaggle hyperlink](https://www.kaggle.com/datasets/zalando-research/fashionmnist).
 
-* Then, use Pi's USB camera to capture each digit in separate images. 
+* Take a photo of it. Ensure clean background and high contrast between item and background. (I use my phone to take picture)
 
-* Next, use OpenCV to preprocess images to convert them to the same style as MNIST images.
+* Preprocess images to convert them to the same style as Fashion MNIST images. (I used photo app in my phone to crop and filter. Then I upload the image to ChatGPT and ask it to generate code that: "use opencv to preprocess the uploaded image for Fashion MNIST dataset. Ensure clear edge and good contrast." )
 
-* Then, start over a new .py file. Use your previously trained neural networks and perform inference on the images.
+* Then, start over a new .py file. Use your previously trained neural networks and perform inference on the images. Also record the inference time.
 
-* Does it predict the correct digit?
+* Does it predict the correct label?
 
-| **Pi's raw capture** |**After OpenCV process** |
+| **Raw Image** |**Preprocessed and Perform prediction** |
 |---------|---------|
-| <img src="Pic/captured_digit.jpg" height="200"> | <img src="Pic/opencv_digit.png" height="200"> |
+| <img src="Pic/1000028901.jpg" height="350"> | <img src="Pic/Figure_2.png" height="400"> |
 
 ```shell
->>> %Run processimagemnist.py
-Predicted digit: 4
+>>> %Run caopredict.py
+Predicted Class: Bag
+Inference Time: 0.0048 seconds
 ```
 
 🎉 **Check Point 3**
 
 ------------------
-## 4. MobileNet: Real-Time Object Detection
+## 4. Deep Vision Real-Time Object Detection — MobileNet
 
 In the first task, when you run YOLO in Pi5, it runs slowly.
 
