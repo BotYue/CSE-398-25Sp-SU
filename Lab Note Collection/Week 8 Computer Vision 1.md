@@ -57,6 +57,13 @@ In this task, we will play with an old-fashioned object detection method in comp
 
 Haar Cascades method distinguishes an object based on grayscale brightness differences between itself and its surroundings. **Haar** refers to **Haar-like feature**.  https://en.wikipedia.org/wiki/Haar-like_feature
 
+#### References
+
+- Viola, Paul, and Michael Jones. ["Rapid object detection using a boosted cascade of simple features."](https://ieeexplore.ieee.org/document/990517) *CVPR*, 2001.
+- Lienhart, Rainer, and Jochen Maydt. ["An extended set of Haar-like features for rapid object detection."](https://ieeexplore.ieee.org/document/1038171) *ICIP*, 2002.
+
+------------
+
 Your task is to design a **pixelator for human's upper body**. In detail, you will do:
 
 - [ ] **Use Haar Cascades as detector**
@@ -77,7 +84,7 @@ Show a real-time streaming in your Pi. Again, if ```cv2.imshow``` not working, u
 
 - [ ] **Tuning for better result**
 
-Such old-fashioned model is very sensitive to your camera placement, brightness, background, ... .
+Such old-fashioned method is very sensitive to your camera placement, brightness, background, ... .
 
 To get a good result, you need to trial and error: 
 * adjust paramters in```.detectMultiScale()```
