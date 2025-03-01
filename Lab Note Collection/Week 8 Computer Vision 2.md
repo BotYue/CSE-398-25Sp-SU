@@ -17,7 +17,10 @@ In this task, we will try the deep-learning-based computer vision. We will go th
 
 We will use **PyTorch** + **Torchvision** as deep vision framework. They are already installed when you installed ```Ultralytics``` 
 
-We will try on a simple dataset -- **MNIST**.
+We will try on a simple dataset -- **Fashion MNIST**.
+
+* Dataset description: https://www.kaggle.com/datasets/zalando-research/fashionmnist
+* PyTorch training details: https://pytorch.org/tutorials/beginner/introyt/trainingyt.html
 
 ----------------------
 
@@ -25,12 +28,12 @@ We will try on a simple dataset -- **MNIST**.
 
 Use ```torchvision.datasets``` to download MNIST data to your local disk.
 
-https://pytorch.org/vision/0.8/datasets.html#mnist
+https://pytorch.org/vision/0.21/generated/torchvision.datasets.FashionMNIST.html
 
 - [ ] **Check the Data**
 
-Open your file folder to double check. You should have 4 compressed files:
-*  training set images
+Open your file folder to double check. You should have 8 files in 4 different names (4 compressed, 4 raw):
+* training set images
 * training set labels
 * testing set images
 * testing set labels
