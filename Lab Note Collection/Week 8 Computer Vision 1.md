@@ -11,7 +11,7 @@
 > Pi's Fan will run in full speed. Ensure no objects nearby the fan.
 
 ------------------
-## 1. Basic Set-up
+## 1. Basic Set-up — ```Ultralytics```
 
 - [ ] **Install Ultralytics**
 
@@ -51,7 +51,7 @@ Play with different objects nearby.
 🎉 **Check Point 1**
 
 ------------------
-## 2. Old-Fashioned Computer Vision: Haar Cascades
+## 2. Old-Fashioned Computer Vision — Haar Cascades
 
 In this task, we will play with an old-fashioned object detection method in computer vision -- **Haar Cascades**
 
