@@ -53,7 +53,7 @@ Play with different objects nearby.
 ------------------
 ## 2. Old-Fashioned Computer Vision
 
-In this task, we will play with an old-fashioned object detection method in computer vision -- **Haar Cascades**
+In this task, we will play with an old-fashioned object detection method in computer vision -- **Haar Cascades** . This method was used as **the first** real-time face detector.
 
 Haar Cascades method distinguishes an object based on grayscale brightness differences between itself and its surroundings. **Haar** refers to **Haar-like feature**.  https://en.wikipedia.org/wiki/Haar-like_feature
 
