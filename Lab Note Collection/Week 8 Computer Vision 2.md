@@ -43,13 +43,30 @@ Start a new .py, use ```torchvision.datasets``` to load downloaded dataset. Then
 <img src="Pic/Figure_1.png" height="500"> 
 
 - [ ] **Train Neural Network**
-
+> [!TIP]
+> The training can be done in your own laptop or any Cloud platform (such as Google Colab) for speeding up.
+> 
 Start over a new .py. Use ```torch.nn``` to create a neural network. Then train the neural network in the Pi.
 
 * Remember to do ```torch.device("cpu")``` for Pi, not ```gpu```
-* Record your training time. expect to be >10 minutes.
+* Record your training time. expect to be >20 minutes.
 * Save the trained model in your local disk.
-* The training can be done in your own laptop or any Cloud platform for speeding up.
+
+```shell
+>>> %Run -c $EDITOR_CONTENT
+Epoch 1/10, Loss: 0.5135, Time: 135.63 sec
+Epoch 2/10, Loss: 0.3023, Time: 131.29 sec
+Epoch 3/10, Loss: 0.2528, Time: 130.57 sec
+Epoch 4/10, Loss: 0.2234, Time: 165.76 sec
+Epoch 5/10, Loss: 0.2018, Time: 163.32 sec
+Epoch 6/10, Loss: 0.1779, Time: 146.26 sec
+Epoch 7/10, Loss: 0.1628, Time: 157.00 sec
+Epoch 8/10, Loss: 0.1448, Time: 161.22 sec
+Epoch 9/10, Loss: 0.1313, Time: 162.27 sec
+Epoch 10/10, Loss: 0.1145, Time: 162.21 sec
+Total training time: 1515.51 sec
+Model trained and saved as /home/cao/Downloads/fashion_mnist_optimized.pth
+```
 
 - [ ] **Inference with Real Image**
 
