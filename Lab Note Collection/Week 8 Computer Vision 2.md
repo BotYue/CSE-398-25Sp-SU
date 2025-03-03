@@ -93,11 +93,13 @@ Inference Time: 0.0048 seconds
 🎉 **Check Point 3**
 
 ------------------
-## 4. Deep Vision Real-Time Object Detection — MobileNet
+## 4. Real-Time Deep Vision for Embedded System  — MobileNet
 
-In the first task, when you run YOLO in Pi5, it runs slowly.
+In the first task, when you run YOLO in Pi5, it runs slowly. 
 
-In this task, we introduce a faster method: **MobileNet** , this works well for embedded systems
+Let's narrow down the scope, instead of finding multiple objects on an image (YOLO), we now just try a figure out a single object.
+
+In this task, we introduce a fast method for such task: **MobileNet** , this works well for embedded systems
 
 You can access a **pretrained MobileNetV2 model in PyTorch**, https://pytorch.org/vision/main/models/generated/torchvision.models.mobilenet_v2.html
 
