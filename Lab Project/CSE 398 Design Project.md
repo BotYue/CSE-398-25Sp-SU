@@ -2,6 +2,7 @@
 
 -------
 **Lab staff: Yue Cao, Jiamin Zhao**
+
 **Spring 2025, Syracuse University**
 
 -------------
@@ -145,8 +146,8 @@ You can request purchase from the following vendors:
 
 * Amazon (1 week or more shipping time)
 * Adafruit (2 weeks or more shipping time)
-* SparkFun Electronics (2 weeks or more shipping time)
-* DigiKey (2 weeks or more shipping time)
-* Pololu Robotics and Electronics (2 weeks or more shipping time)
+* SparkFun Electronics (2 weeks or more)
+* DigiKey (2 weeks or more)
+* Pololu Robotics and Electronics (2 weeks or more)
 * https://www.robotshop.com/ (no clue)
 
