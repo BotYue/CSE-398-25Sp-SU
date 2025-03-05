@@ -101,13 +101,13 @@ It is distributed as:
 
 - **Mar 17:** 
   <br>no class attendance. group discussion on project proposal. any place you want
-  <br>**Mar 20:** 
+  <br>**Mar 19:** 
   <br>In-class: group meeting on project proposal.
 
 - **Mar 24:** 
   <br>In-class: group presentation on project proposal. 
   <br>Evening due: project proposal slides on Blackboard, order request on Blackboard.
-  <br>**Mar 27:** 
+  <br>**Mar 26:** 
   <br>In-class: group meeting on project.
 
 - **Mar 31:** 
