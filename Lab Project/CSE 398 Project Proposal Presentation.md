@@ -4,7 +4,7 @@
 
 - [ ] **Dates**
 
-Mar 20:
+Mar 19:
 
 In-class: group meeting on project proposal.
 
