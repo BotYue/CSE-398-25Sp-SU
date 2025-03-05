@@ -51,7 +51,7 @@ The Design Project starts right after the Spring Break. The Design Project ends 
 
 - [ ] Your project should be centered on Pi 5.
 	
-	  Your project **must** leverage the unique advantages of the **Raspberry Pi 5**.
+ 	Your project **must** leverage the unique advantages of the **Raspberry Pi 5**.
 	
 	If your project can be implemented using **cheaper alternatives** such as an Arduino, **it is not valid**.
 	
@@ -63,16 +63,19 @@ The Design Project starts right after the Spring Break. The Design Project ends 
 	
 - [ ] Your project should include both hardware and software implementations.
 	
-	* For the hardware, you need to have at least **2 different types of peripherals**.
+	* For the **hardware**, you need to have at least **2 different types of peripherals**.
+
 	    **These can be considered:** I2C-connected device, Serial-connected device, SPI-connected device, WiFi-communicated device, Bluetooth-communicated device, RF-communicated device, Motor, Camera, Microphone, Speaker, ...
+   
 	    **These are not counted:** LED, push button, buzzer, standard keyboard, mouse, standard Monitor, battery.
 	
-	* For the software, the implementation must demonstrate a **sufficient level of complexity and intelligence**.
+	* For the **software**, the implementation must demonstrate a **sufficient level of complexity and intelligence**.
+
 	    Simple coding is not acceptable.
 	
 - [ ] Your project needs to adhere to Ethics guidelines
 	
-- [ ] Advice: Choose a topic that all team members are truly interested in and care about.
+- [ ] Advice: Choose a topic that all team members are truly interested in.
 
 <img src="Pic/1000028924.jpg" width="600"/>
 
@@ -85,8 +88,9 @@ The design project take up 40% of the final grade.
 It is distributed as:
 
 * Proposal Presentation  **5 %**: group presentation
-* Project Commitment **10%**: 
-  Determined by group meeting, group markdown, Work Timesheet. If a student didn't show enough commitment in a single week, the student will lose 1-2%. A student who didn't show enough commitment for all 5 weeks will receive 0 for this grading item.
+* Project Commitment **10%**:
+   
+  Determined by group meeting, group markdown, Work Timesheet. A student will lose 2% per week if not showing enough commitment. A student who didn't show enough commitment for all 5 weeks will receive 0 for this grading item.
 * Final Report  **5%**: individual report
 * Final Demo **20%**: will be judged by lab staff, other faculty, senior-design students.
 
@@ -95,41 +99,41 @@ It is distributed as:
 #### 5. Project Agenda and Dues
 
 - **Mar 17:** 
-  no class attendance. group discussion on project proposal. any place you want
-  **Mar 20:** 
-  In-class: group meeting on project proposal.
+  <br>no class attendance. group discussion on project proposal. any place you want
+  <br>**Mar 20:** 
+  <br>In-class: group meeting on project proposal.
 
 - **Mar 24:** 
-  In-class: group presentation on project proposal. 
-  Evening due: project proposal slides on Blackboard, order request on Blackboard.
-  **Mar 27:** 
-  In-class: group meeting on project.
+  <br>In-class: group presentation on project proposal. 
+  <br>Evening due: project proposal slides on Blackboard, order request on Blackboard.
+  <br>**Mar 27:** 
+  <br>In-class: group meeting on project.
 
 - **Mar 31:** 
-  Evening due: group Markdown on Blackboard, individual Work Timesheet on Blackboard
-  **Apr 2:** 
-  In-class: group meeting on project.
+  <br>Evening due: group Markdown on Blackboard, individual Work Timesheet on Blackboard
+  <br>**Apr 2:** 
+  <br>In-class: group meeting on project.
   
 - **Apr 7:** 
-  Evening due: group Markdown on Blackboard, individual Work Timesheet on Blackboard
-  **Apr 9:** 
-  In-class: group meeting on project.
+  <br>Evening due: group Markdown on Blackboard, individual Work Timesheet on Blackboard
+  <br>**Apr 9:** 
+  <br>In-class: group meeting on project.
   
 - **Apr 14:** 
-  Evening due: group Markdown on Blackboard, individual Work Timesheet on Blackboard
-  **Apr 16:** 
-  In-class: group meeting on project.
+  <br>Evening due: group Markdown on Blackboard, individual Work Timesheet on Blackboard
+  <br>**Apr 16:** 
+  <br>In-class: group meeting on project.
   
 - **Apr 21:** 
-  Evening due: group Markdown on Blackboard, individual Work Timesheet on Blackboard
-  **Apr 23:** 
-  In-class: group meeting on project.
+  <br>Evening due: group Markdown on Blackboard, individual Work Timesheet on Blackboard
+  <br>**Apr 23:** 
+  <br>In-class: group meeting on project.
   
 - **Apr 28:** 
-  **Demo Day**
+  <br>**Demo Day**
 
 - **May 5:** 
-  Evening due: individual report
+  <br>Evening due: individual report
   
 -------------
 
