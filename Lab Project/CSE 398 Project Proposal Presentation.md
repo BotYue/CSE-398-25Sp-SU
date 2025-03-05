@@ -1,4 +1,4 @@
-#### Project Proposal Presentation
+## Project Proposal Presentation
 
 -----------
 
@@ -13,7 +13,7 @@ Evening due: project proposal slides on Blackboard, order request on Blackboard.
 
 - [ ] **Presentation Format**
 
-Each group 10 - 15 minutes presentation.
+Each group 10+ minutes presentation.
 
 After it, 3 - 5 minutes Q&A
 
