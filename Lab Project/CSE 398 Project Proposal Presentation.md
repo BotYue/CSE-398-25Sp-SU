@@ -5,10 +5,13 @@
 - [ ] **Dates**
 
 Mar 20:
+
 In-class: group meeting on project proposal.
 
 Mar 24:
+
 In-class: group presentation on project proposal.
+
 Evening due: project proposal slides on Blackboard, order request on Blackboard.
 
 - [ ] **Presentation Format**
