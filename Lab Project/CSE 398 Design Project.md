@@ -28,23 +28,23 @@ The Design Project starts right after the Spring Break. The Design Project ends 
 - [ ] Every week, **every student** needs submit a **Work Timesheet** on their own, in word/pdf format.
 	
 	The Work Timesheet includes:
-	
-	  * All working hours, in-class and out-of-class. As well as briefly state the work. 
-	
-	  ```
-	  Cao worked on Feb 24 12:45-3:45pm, Feb 25 7-9 pm, Feb 26 1-5 pm. 
-	  * Feb 24 12:45-3:45pm (in class): I tried to use OpenCV to record video.
-	  * Feb 26 12:45-3:45pm (in class): I studied OpenCV documents on Haar Cascade. (It is counted that you just study some documents/watch other's walk thru video)
-	  * Feb 27 1-5 pm (out of class): I tried to implement Haar Cascade in Pi but failed. (It is counted that the trial failed, just say it)
-	  ```
-	
-	  * Photo proof of all out-of-class hours.
-	  ```
-	  * A set of Photo proof needs to contain: 1, one pic of your selfie with lab as background; 2, one pic of your raspberry pi time with lab as background.
-	  * Each set of Photo proof can mostly cover 3-hour period.
-	  * For example, if I work Feb 27 1-5 pm, I need two sets of Photo proofs: one set covering 1-4 pm, one set covering 4-5pm.
-	  ```
 
+ 	* All working hours, in-class and out-of-class. As well as brief statement of the work. 
+	
+	  >Cao worked on Feb 24 12:45-3:45pm, Feb 25 7-9 pm, Feb 26 1-5 pm. 
+	  >* Feb 24 12:45-3:45pm (in class): I tried to use OpenCV to record video.
+	  >* Feb 26 12:45-3:45pm (in class): I studied OpenCV documents on Haar Cascade. (It is counted that you just study some documents/watch other's walk thru video)
+	  >* Feb 27 1-5 pm (out of class): I tried to implement Haar Cascade in Pi but failed. (It is counted that the trial failed, just say it)
+  	
+   	* Photo proof of all out-of-class hours.
+	  
+	  >* A set of Photo proof needs to contain: 1, one pic of your selfie with lab as background; 2, one pic of your raspberry pi time with lab as background.
+	  >* Each set of Photo proof can mostly cover 3-hour period.
+	  >* For example, if I work Feb 27 1-5 pm, I need two sets of Photo proofs: one set covering 1-4 pm, one set covering 4-5pm.
+	  
+| **selfie with lab background** |**pi time with lab background** |
+|---------|---------|
+| <img src="Pic/1000028929.jpg" height="350"> | <img src="Pic/1000028930.jpg" height="350"> |
 ----------
 
 #### 3. Project Specifications
@@ -57,7 +57,7 @@ The Design Project starts right after the Spring Break. The Design Project ends 
 	
 - [ ] Your project should be able to be demonstrated in a **small space** (2x2 meters)
 	
-	  We  will use the **open space right outside the 3rd-floor elevator** for demo. This space is shared by 7 groups. 
+	We  will use the **open space right outside the 3rd-floor elevator** for demo. This space is shared by 7 groups. 
 	
 	Also consider leave space for audience.
 	
@@ -73,6 +73,8 @@ The Design Project starts right after the Spring Break. The Design Project ends 
 - [ ] Your project needs to adhere to Ethics guidelines
 	
 - [ ] Advice: Choose a topic that all team members are truly interested in and care about.
+
+<img src="Pic/1000028924.jpg" width="600"/>
 
 ----------
 
@@ -99,11 +101,10 @@ It is distributed as:
 
 - **Mar 24:** 
   In-class: group presentation on project proposal. 
-  Evening due: project proposal slides on Blackboard
+  Evening due: project proposal slides on Blackboard, order request on Blackboard.
   **Mar 27:** 
   In-class: group meeting on project.
-  Evening due: Order request on Blackboard.
-  
+
 - **Mar 31:** 
   Evening due: group Markdown on Blackboard, individual Work Timesheet on Blackboard
   **Apr 2:** 
@@ -138,10 +139,10 @@ Each group can request 100 USD purchase from the department. The order needs to 
 
 You can request purchase from the following vendors: 
 
-* Amazon
-* Adafruit
-* SparkFun Electronics
-* DigiKey
-* Pololu Robotics and Electronics
-* https://www.robotshop.com/ 
+* Amazon (1 week or more shipping time)
+* Adafruit (2 weeks or more shipping time)
+* SparkFun Electronics (2 weeks or more shipping time)
+* DigiKey (2 weeks or more shipping time)
+* Pololu Robotics and Electronics (2 weeks or more shipping time)
+* https://www.robotshop.com/ (no clue)
 
