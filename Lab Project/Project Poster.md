@@ -20,6 +20,10 @@ https://su-jsm.atlassian.net/wiki/spaces/ecs/pages/156795299/Brand
 * Submit to BlackBoard in .ppt format with correct slide size.
 * Don't write too much text in Poster. Make it understandable within 30-60 seconds.
 
+
+<img src="Pic/poster temp.png" width="800"/>
+
+
 - [ ] **Content**
 
 * An overview or introduction
