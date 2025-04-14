@@ -36,6 +36,6 @@ https://su-jsm.atlassian.net/wiki/spaces/ecs/pages/156795299/Brand
 
 * Key techniques
 
-* Others if your want to add, such as challenges, impact, future development...
+* Others if your want to add, such as results, demo pictures, challenges, impact, future development...
 
 You can refer to the Senior Design posters in the lab room. And they are in a little larger size, 36 × 24 inches.
