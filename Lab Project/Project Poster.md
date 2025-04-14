@@ -17,7 +17,7 @@ Apr 24 (the last Thursday before Demo)
 
 https://su-jsm.atlassian.net/wiki/spaces/ecs/pages/156795299/Brand 
 
-* Submit to BlackBoard in .ppt format with correct slide size.
+* Submit to BlackBoard in .ppt format with correct slide size. There is no need for you to print.
 * Don't write too much text in Poster. Make it understandable within 30-60 seconds.
 
 
