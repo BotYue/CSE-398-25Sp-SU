@@ -10,21 +10,21 @@
 
 Choose only one option to finish
 
-* **individual report:**
+* **Option 1: individual report**
 
   Each group member needs to write individual project report
 
-* **group video:**
+* **Option 2: group video**
 
-​	All group member needs to work together and make a project video
+  All group member needs to work together and make a project video
 
 --------
 
 - [ ] **If you choose individual report**
 
 * You need to follow the format of IEEE Conference Proceedings
-https://www.ieee.org/conferences/publishing/templates.html 
-Use Microsoft Word US letter
+<br>https://www.ieee.org/conferences/publishing/templates.html 
+<br>Use Microsoft Word US letter
 
 * The project report should be around 3-4 pages.
 
@@ -44,9 +44,9 @@ Use Microsoft Word US letter
 
 * The video must describe title, member names, date (semester) at the beginning
 
-* For reference, you can view the some examples in this playlist 
+* For reference, you can view the some examples in this playlist<br> 
 https://www.youtube.com/playlist?list=PLnnDMDaEIAC2efK3mQsPPJSb_mEfHCz3- 
 
 * Your video may be used for future purposes by the instructor or ECS Media and may be published online. If you prefer that the instructor or ECS Media not publish your video, you may opt out by notifying the instructor via email.
 
-🎉🎉 Congratulations on Finishing the Project!  🎉🎉
+🎉🎉 **Congratulations on Finishing the Project!**  🎉🎉
