@@ -48,3 +48,5 @@ Use Microsoft Word US letter
 https://www.youtube.com/playlist?list=PLnnDMDaEIAC2efK3mQsPPJSb_mEfHCz3- 
 
 * Your video may be used for future purposes by the instructor or ECS Media and may be published online. If you prefer that the instructor or ECS Media not publish your video, you may opt out by notifying the instructor via email.
+
+🎉🎉 Congratulations on Finishing the Project!  🎉🎉
