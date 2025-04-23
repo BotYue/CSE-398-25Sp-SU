@@ -4,7 +4,7 @@
 
 - [ ] **Due Date**
 
-Apr 24 (the last Thursday before Demo)
+Apr 27 (the last Sunday before Demo)
 
 - [ ] **Format**
 
